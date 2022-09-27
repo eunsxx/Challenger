@@ -1,4 +1,4 @@
-import glob
+import glob #glob what?
 import os.path
 
 def change_mp3():
