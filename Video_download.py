@@ -2,12 +2,12 @@
 from pytube import Playlist
 
 def Download_youtube():
-    DOWNLOAD_FOLDER = "/Users/ieunseo/Desktop/OpenSource_Challenger/download_video"
+    DOWNLOAD_FOLDER = "/Users/ieunseo/Desktop/OpenSource_Challenger/download_video" # video download path
 
-    p = Playlist('https://www.youtube.com/playlist?list=PLYRyOys4TylP1OOB8pgeQ_RMfmcr34B2D')
+    p = Playlist('https://youtube.com/playlist?list=PLYRyOys4TylOn1RpkBhTwlvYcReNjkTb6')
 
     download_count = 0
-    path = "/Users/ieunseo/Desktop/OpenSource_Challenger/download_audio"
+    path = "/Users/ieunseo/Desktop/OpenSource_Challenger/download_audio" # audio download path
 
     for video in p.videos:
         video.streams.first().download(DOWNLOAD_FOLDER) # mp4 download
