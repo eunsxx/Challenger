@@ -40,7 +40,9 @@ Challenger는 독학으로 춤을 배우는 사람도 안무를 원활하게 학
 
 ### 📌 레퍼런스
 1. pytube - https://github.com/pytube/pytube
-
+2. pychorus - https://github.com/vivjay30/pychorus.git
+3. ffmpeg - https://github.com/FFmpeg/FFmpeg.git
+4. openpose - https://github.com/CMU-Perceptual-Computing-Lab/openpose.git
 
 <br/>
 <br/>
